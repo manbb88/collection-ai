@@ -15,5 +15,4 @@ class MyZoo:
         return set(self.animals.keys()) == set(other.animals.keys())
 
     def __len__(self):
-        # len(对象) 输出所有动物总数
         return sum(self.animals.values())
